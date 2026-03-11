@@ -4,15 +4,15 @@ Hi! Welcome to my portfolio website repository. This is where I keep the code fo
 
 ## About This Project
 
-I built this simple portfolio to showcase who I am and what I do. Diri nako gi-display akong basic info sama sa akong name, location, ug profession. May button pod para mo-download sa akong CV ug para mo-send ug email.
+I built this simple portfolio to showcase who I am and what I do. Here I display my basic info like my name, location, and profession. There's also a button to download my CV and one to send me an email.
 
 ## What I Used
 
-- **Vite** - para sa development server ug build
-- **Tailwind CSS** - para sa styling
-- **HTML** - para sa structure
-- **Font Awesome** - para sa icons
-- **Google Fonts (Poppins)** - para sa font
+- **Vite** - for development server and build
+- **Tailwind CSS** - for styling
+- **HTML** - for structure
+- **Font Awesome** - for icons
+- **Google Fonts (Poppins)** - for font
 
 ## How to Run
 
@@ -31,11 +31,11 @@ I built this simple portfolio to showcase who I am and what I do. Diri nako gi-d
    npm run build
    ```
 
-## Files nga I-edit
+## Files to Edit
 
-- `index.html` - diri nako gi-update akong info (name, location, email, etc.)
-- `src/imgs/img1.jpg` - profile photo nako
-- `src/imgs/Updated Resume.pdf` - akong CV/Resume
+- `index.html` - update my info (name, location, email, etc.)
+- `src/imgs/img1.jpg` - my profile photo
+- `src/imgs/Updated Resume.pdf` - my CV/Resume
 - `src/style.css` - custom styles
 
 ## Structure
