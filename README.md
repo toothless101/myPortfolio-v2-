@@ -51,7 +51,7 @@ vite-project/
     ├── style.css
     └── imgs/
         ├── img1.jpg           # Profile pic
-        ├── copeh.JPG          # Favicon
+        ├── copeh.JPG          # For hover pic
         ├── location.png       # Location icon
         └── Updated Resume.pdf # My CV
 ```
@@ -62,4 +62,5 @@ If you want to reach out:
 - Email: poralanhilarymae@gmail.com
 - Location: Tagum City, Philippines
 
-That's it! Feel free to browse around or use this as inspiration for your own portfolio. Thanks for checking this out!
+That’s it! Feel free to explore and take inspiration from this portfolio.
+Inspired by Bryl Lim’s portfolio.
