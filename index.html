@@ -10,60 +10,114 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="app" class="max-w-4xl mx-auto px-4 py-8">
-      <section class="mb-8">
-        <div class="flex items-center gap-4 md:gap-6">
-          <img class="rounded-lg w-40 h-40 md:w-40 md:h-40 object-cover shrink-0" height="160" width="160" src="/src/imgs/img1.jpg" alt="Hilary Mae Poralan">
-          <div class="flex-1 min-w-0">
-            <div class="flex items-center justify-between gap-2">
-              <h1 class="text-lg md:text-2xl font-bold truncate">Hilary Poralan</h1>
-            </div>
-            <p class="text-xs md:text-sm text-foreground/70 mt-0.5 flex items-center gap-1">
-              <img src="/src/imgs/location.png" alt="Location Icon" class="w-4 h-4">
-              <span>Tagum City, Philippines</span> 
-            </p>
-            <div class="flex items-center justify-between mt-1.5 md:mt-2">
-              <p class="text-[10px] md:text-base">Web Developer</p>
-            </div>
-            <div class="space-y-2 mt-3 md:mt-4">
-              <div class="flex gap-2">
-                 <a class="inline-flex h-7 md:h-8 items-center rounded-lg bg-foreground px-2.5 md:px-4 text-[8px] md:text-xs font-medium text-white transition-all duration-200 hover:bg-foreground/90 hover:-translate-y-0.5 gap-1 md:gap-1.5 whitespace-nowrap min-h-0" href="/src/imgs/Updated Resume.pdf">
-                  <i class="fa-solid fa-download"></i>
-                  <span class="text-left">Download CV</span>
-                </a>
-                <a class="hidden md:inline-flex h-7 md:h-8 items-center rounded-lg border border-gray-300 shadow-[0_1px_2px_rgba(0,0,0,0.03),0_1px_1px_rgba(0,0,0,0.04)] bg-background px-2.5 md:px-4 text-[8px] md:text-xs font-medium transition-all duration-200 hover:bg-muted hover:-translate-y-0.5 hover:shadow-[0_3px_10px_rgba(0,0,0,0.06)] gap-1 md:gap-1.5 whitespace-nowrap min-h-0" href="mailto: poralanhilarymae@gmail.com">
-                  <i class="fa-solid fa-envelope"></i>
-                  <span class="text-left">Send Email</span>
-                </a>
+    <main class="animate-fade-in">
+        <div class="max-w-4xl mx-auto px-4 py-8">
+        <section class="mb-8 animate-fade-in">
+          <div class="flex items-center gap-4 md:gap-6">
+            <img class="rounded-lg w-40 h-40 md:w-40 md:h-40 object-cover shrink-0" height="160" width="160" src="/src/imgs/myimage1.jpg" alt="Hilary Mae Poralan">
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center justify-between gap-2">
+                <h1 class="text-lg md:text-2xl font-bold truncate">Hilary Poralan</h1>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="grid grid-cols-1 md:grid-cols-6 gap-2">
-            <div class="bento-card rounded-lg p-4 col-span-1 md:col-span-4 space-y-2 group animate-fade-in border border-gray-300 shadow-[0_1px_2px_rgba(0,0,0,0.03),0_1px_1px_rgba(0,0,0,0.04)] ">
-              <h2 class="text-lg font-bold">About</h2>
-              <p class="text-sm text-foreground/70 leading-relaxed">I'm a web developer specializing in backend development and database design, with experience in building web applications using Laravel and MySQL. I am currently studying and practicing Node.js and Express to further expand my backend development skills. I focus on creating practical, efficient, and user-friendly systems that solve real-world problems. <br><br>
-                I have built several CRUD-based systems, implemented authentication features, and designed structured databases to support scalable applications. Through these projects, I continue to strengthen my skills in developing clean, organized, and reliable server-side logic. <br><br>
-                Aside from developing applications, I also work as a backend instructor, where I guide students in understanding server-side development and modern backend tools. Teaching allows me to share my knowledge with others, and at the same time, I believe it is also a way for me to continuously learn and grow as a developer.
+              <p class="text-xs md:text-sm text-foreground/70 mt-0.5 flex items-center gap-1">
+                <img src="/src/imgs/location.png" alt="Location Icon" class="w-4 h-4">
+                <span>Tagum City, Philippines</span> 
               </p>
-            </div>
-            <div class="col-span-1 rounded-lg md:col-span-2 md:row-span-3 space-y-2 animate-fade-in animation-delay-200 border border-gray-300 shadow-[0_1px_2px_rgba(0,0,0,0.03),0_1px_1px_rgba(0,0,0,0.04)] ">
-              <div class="bento-card p-4 space-y-2 group flex-1">
-                <h2 class="text-lg font-bold">Experience</h2>
-                <div class="relative space-y-4 mt-4">
-                  <div class="absolute left-1.5 top-1.5 bottom-5 w-px bg-border"></div>
+              <div class="flex items-center justify-between mt-1.5 md:mt-2">
+                <p class="text-[10px] md:text-base">Web Developer
+                  <span class="text-gray-400">/</span>
+                  Backend Instructor
+                </p>
+              </div>
+              <div class="space-y-2 mt-3 md:mt-4">
+                <div class="flex gap-2">
+                  <a class="inline-flex h-7 md:h-8 items-center rounded-lg bg-foreground px-2.5 md:px-4 text-[8px] md:text-xs font-medium text-white transition-all duration-200 hover:bg-foreground/90 hover:-translate-y-0.5 gap-1 md:gap-1.5 whitespace-nowrap min-h-0" href="/src/imgs/Updated Resume.pdf">
+                    <i class="fa-solid fa-download"></i>
+                    <span class="text-left">Download CV</span>
+                  </a>
+                  <a class="hidden md:inline-flex h-7 md:h-8 items-center rounded-lg border border-gray-300 shadow-[0_1px_2px_rgba(0,0,0,0.03),0_1px_1px_rgba(0,0,0,0.04)] bg-background px-2.5 md:px-4 text-[8px] md:text-xs font-medium transition-all duration-200 hover:bg-muted hover:-translate-y-0.5 hover:shadow-[0_3px_10px_rgba(0,0,0,0.06)] gap-1 md:gap-1.5 whitespace-nowrap min-h-0" href="mailto: poralanhilarymae@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span class="text-left">Send Email</span>
+                  </a>
                 </div>
               </div>
             </div>
-            <div class="col-span-4 row-span-3 row-start-5">3</div>
-            <div class="col-span-3 row-span-3 row-start-8">4</div>
-            <div class="col-span-3 row-span-3 col-start-4 row-start-8">5</div>
-            <div class="col-span-6 row-start-11">6</div>
-            <div class="col-span-6 row-start-12">7</div>
-      </section>
-      
-    </div>
+          </div>
+        </section>
+        <section class="grid grid-cols-1 md:grid-cols-6 gap-2">
+              <div class="bento-card rounded-lg p-4 col-span-1 md:col-span-4 space-y-2 group animate-fade-in border border-gray-300 shadow-[0_1px_2px_rgba(0,0,0,0.03),0_1px_1px_rgba(0,0,0,0.04)] ">
+                <h2 class="text-lg font-bold">About</h2>
+                <p class="text-sm text-foreground/70 leading-relaxed">I'm a web developer specializing in backend development and database design, with experience in building web applications using Laravel and MySQL. I am currently studying and practicing Node.js and Express to further expand my backend development skills. I focus on creating practical, efficient, and user-friendly systems that solve real-world problems. <br><br>
+                  I have built several CRUD-based systems, implemented authentication features, and designed structured databases to support scalable applications. Through these projects, I continue to strengthen my skills in developing clean, organized, and reliable server-side logic. <br><br>
+                  Aside from developing applications, I also work as a backend instructor, where I guide students in understanding server-side development and modern backend tools. Teaching allows me to share my knowledge with others, and at the same time, I believe it is also a way for me to continuously learn and grow as a developer.
+                </p>
+              </div>
+              <div class="col-span-1 rounded-lg md:col-span-2 md:row-span-3 space-y-2 animate-fade-in animation-delay-200 border border-gray-300 shadow-[0_1px_2px_rgba(0,0,0,0.03),0_1px_1px_rgba(0,0,0,0.04)] ">
+                <div class="bento-card p-4 space-y-2 group flex-1">
+                  <h2 class="text-lg font-bold">Experience</h2>
+                  <div class="relative space-y-4 mt-4">
+                    <div class="absolute left-1.5 top-1.5 bottom-5 w-px bg-border"></div>
+                    <div class="relative pl-6 group">
+                      <div class="absolute left-0 top-1.5 w-3 h-3 rounded-full border-2 border-accent bg-accent transition-colors"></div>
+                      <div class="space-y-1">
+                        <h3 class="text-sm font-semibold text-accent transition-colors">Backend Instructor</h3>
+                        <div class="flex items-center justify-between">
+                          <span class="text-xs text-foreground-70 text-accent-70">
+                            East Watch Services, LCC 
+                          </span>
+                          <span class="text-[-10px] font-mono px-1.5 py-0.5 rounded-full bg-foreground/5 shadow-[0_1px_1px_rgba(0,0,0,0.03)] bg-accent/10">2025</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="relative pl-6 group/role">
+                      <div class="absolute left-0 top-1.5 w-3 h-3 rounded-full border-2 border-border bg-background group-hover:bg-accent transition-colors"></div>
+                      <div class="space-y-1">
+                        <h3 class="text-sm font-semibold group-hover/role:text-accent transition-colors">On the Job Training</h3>
+                        <div class="flex items-center justify-between">
+                          <span class="text-xs text-foreground-70 text-accent-70">
+                            ICT Center, Davao Regional Medical Center 
+                          </span>
+                          <span class="text-[-10px] font-mono px-1.5 py-0.5 rounded-full bg-foreground/5 shadow-[0_1px_1px_rgba(0,0,0,0.03)] bg-accent/10">2025</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="relative pl-6 group/role">
+                      <div class="absolute left-0 top-1.5 w-3 h-3 rounded-full border-2 border-border bg-background group-hover:bg-accent transition-colors"></div>
+                      <div class="space-y-1">
+                        <h3 class="text-sm font-semibold group-hover/role:text-accent transition-colors">BS in Computer Science</h3>
+                        <div class="flex items-center justify-between">
+                          <span class="text-xs text-foreground-70 text-accent-70">
+                            Tagum City College of Science and Technology Foundation, Inc.
+                          </span>
+                          <span class="text-[-10px] font-mono px-1.5 py-0.5 rounded-full bg-foreground/5 shadow-[0_1px_1px_rgba(0,0,0,0.03)] bg-accent/10">2025</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="relative pl-6 group/role">
+                      <div class="absolute left-0 top-1.5 w-3 h-3 rounded-full border-2 border-border bg-background group-hover:bg-accent transition-colors"></div>
+                      <div class="space-y-1">
+                        <h3 class="text-sm font-semibold group-hover/role:text-accent transition-colors">Hello, World!</h3>
+                        <div class="flex items-center justify-between">
+                          <span class="text-xs text-foreground-70 text-accent-70">
+                           Wrote my first line of code
+                          </span>
+                          <span class="text-[-10px] font-mono px-1.5 py-0.5 rounded-full bg-foreground/5 shadow-[0_1px_1px_rgba(0,0,0,0.03)] bg-accent/10">2021</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-span-4 row-span-3 row-start-5">3</div>
+              <div class="col-span-3 row-span-3 row-start-8">4</div>
+              <div class="col-span-3 row-span-3 col-start-4 row-start-8">5</div>
+              <div class="col-span-6 row-start-11">6</div>
+              <div class="col-span-6 row-start-12">7</div>
+        </section>
+        
+      </div>
+    </main>
+    
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

@@ -132,3 +132,33 @@ body {
 .to-gray-200 {
     --tw-gradient-to: #e5e7eb var(--tw-gradient-to-position)
 }
+
+@keyframes fade-in {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fade-in 0.5s ease-out forwards;
+}
+
+.animation-delay-200 {
+    animation-delay: 200ms;
+}
+
+.animation-delay-400 {
+    animation-delay: 400ms;
+}
+
+.group\/role:hover .group-hover\:bg-accent {
+    background-color: var(--accent);
+}
+
+.group\/role:hover .group-hover\:text-accent {
+    color: var(--accent);
+}
+
+.group\/role {
+    transition: all 0.2s ease;
+}
+
